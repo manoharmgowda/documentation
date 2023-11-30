@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Python Documentation</h1>
+        <ul>
+          <a href="#introduction"><li>Introduction</li></a>
+          <a href="#what_should_you_already_know"
+            ><li>What you should already know</li></a
+          >
+          <a href="#python"><li>Python</li></a>
+          <a href="#helloworld"><li>Hello world</li></a>
+          <a href="#variables"><li>Variables</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <article>
+                <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+                </p>
+                <h3>Why Python?</h3>
+                <p>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+                    Python has a simple syntax similar to the English language.
+                    Python has syntax that allows developers to write programs with fewer lines than some other
+                    programming languages.
+                    Python runs on an interpreter system, meaning that code can be executed as soon as it is written.
+                    This means that prototyping can be very quick.
+                    Python can be treated in a procedural way, an object-oriented way or a functional way.</p>
+                <h3>Good to know</h3>
+                <p>The most recent major version of Python is Python 3, which we shall be using in this tutorial.
+                    However, Python 2, although not being updated with anything other than security updates, is still
+                    quite popular.
+                    In this tutorial Python will be written in a text editor. It is possible to write Python in an
+                    Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are
+                    particularly useful when managing larger collections of Python files.</p>
+                <h5>It is used for:</h5>
+                <ul>
+                    <li>web development (server-side)</li>
+                    <li>software development</li>
+                    <li>mathematics</li>
+                    <li>system scripting</li>
+                </ul>
+            </article>
+        </section>
+        <section id="what_should_you_already_know">
+            <h2>What should you already know</h2>
+            <article>
+                <p>This guide assumes you have the following basic background:</p>
+                <ul>
+                    <li>A general understanding of computer programming language.</li>
+                    <li>If you have a hands on enperience in any prgrammingf language python is easy to understand.</li>
+                    <li>If you are new refer some tutorials on youtube</li>
+                </ul>
+            </article>
+        </section>
+        <section id="python">
+            <h2>Python</h2>
+            <h3>History</h3>
+            <p>Python is a widely used general-purpose, high-level programming language. It was initially designed by
+                Guido van Rossum in 1991 and developed by Python Software Foundation. It was mainly developed for
+                emphasis on code readability, and its syntax allows programmers to express concepts in fewer lines of
+                code.
+
+                In the late 1980s, history was about to be written. It was that time when working on Python started.
+                Soon after that, Guido Van Rossum began doing its application-based work in December of 1989 at Centrum
+                Wiskunde & Informatica (CWI) which is situated in the Netherlands. It was started firstly as a hobby
+                project because he was looking for an interesting project to keep him occupied during Christmas. The
+                programming language in which Python is said to have succeeded is ABC Programming Language, which had
+                interfacing with the Amoeba Operating System and had the feature of exception handling. He had already
+                helped to create ABC earlier in his career and he had seen some issues with ABC but liked most of the
+                features. After that what he did was really very clever. He had taken the syntax of ABC, and some of its
+                good features. It came with a lot of complaints too, so he fixed those issues completely and had created
+                a good scripting language that had removed all the flaws. The inspiration for the name came from BBC’s
+                TV Show – ‘Monty Python’s Flying Circus’, as he was a big fan of the TV show and also he wanted a short,
+                unique and slightly mysterious name for his invention and hence he named it Python! He was the
+                “Benevolent dictator for life” (BDFL) until he stepped down from the position as the leader on 12th July
+                2018. For quite some time he used to work for Google, but currently, he is working at Dropbox.
+                The language was finally released in 1991. When it was released, it used a lot fewer codes to express
+                the concepts, when we compare it with Java, C++ & C. Its design philosophy was quite good too. Its main
+                objective is to provide code readability and advanced developer productivity. When it was released it
+                had more than enough capability to provide classes with inheritance, several core data types exception
+                handling and functions.</p>
+            <h3>Version's</h3>
+            <p>Python Software Foundation (PSF) used to support two major versions, Python 2.x & Python 3.x. PSF
+                supported Python 2 because a large body of existing code could not be forward ported to Python 3. So,
+                they supported Python 2 until January 2020, but now they have stopped supporting it. Python 3.0 was
+                released on December 3rd, 2008. It was designed to rectify certain flaws in the earlier version. This
+                version is not completely backward-compatible with previous versions. However, many of its major
+                features have since been back-ported to the Python 2.6.x and 2.7.x version series. Releases of Python 3
+                include utilities to facilitate the automation of Python 2 code translation to Python 3.</p>
+        </section>
+        <section id="helloworld">
+            <h2>Hello World</h2>
+            <p>Hello, World! is often the first program that programmers learn to write when they start learning a new
+                programming language. It’s a simple program that prints the phrase “Hello, World!” to the console or
+                output
+                window. Python is a high-level, interpreted programming language that is known for its readability and
+                ease
+                of use. Python is often used for scripting, web development, data analysis, machine learning, and more.
+                Write a simple hello world program in Python?
+            </p>
+            <code>print("Hello World")</code>
+        </section>
+        <section id="variables">
+            <h2>Variables</h2>
+            <p>Variables are containers for storing data values.Python has no command for declaring a variable.
+                A variable is created the moment you first assign a value to it.Variables do not need to be declared
+                with any particular type, and can even change type after they have been set.</p>
+            <p>A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+                Rules for Python variables:
+                A variable name must start with a letter or the underscore character
+                A variable name cannot start with a number
+                A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+                Variable names are case-sensitive (age, Age and AGE are three different variables)
+                A variable name cannot be any of the Python keywords.</p>
+            <h3>Global Variables</h3>
+            <p>Variables that are created outside of a function (as in all of the examples above) are known as global
+                variables.Global variables can be used by everyone, both inside of functions and outside.If you create a
+                variable with the same name inside a function, this variable will be local, and can only be used inside
+                the function. The global variable with the same name will remain as it was, global and with the original
+                value.</p>
+        </section>
+    </main>
+  </body>
+</html>
